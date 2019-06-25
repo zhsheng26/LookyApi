@@ -20,7 +20,7 @@ replace (
 	google.golang.org/api => github.com/googleapis/google-api-go-client v0.6.0
 	google.golang.org/appengine => github.com/golang/appengine v1.5.0
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190605220351-eb0b1bdb6ae6
-	google.golang.org/grpc => github.com/grpc/grpc-go v1.20.1
+	google.golang.org/grpc => github.com/grpc/grpc-go v1.21.1
 	k8s.io/api => github.com/kubernetes/api v0.0.0-20190602205700-9b8cae951d65
 	k8s.io/apimachinery => github.com/kubernetes/apimachinery v0.0.0-20190607205628-5fbcd19f360b
 	k8s.io/client-go => github.com/kubernetes/client-go v11.0.0+incompatible
@@ -42,6 +42,7 @@ require (
 	github.com/flosch/pongo2 v0.0.0-20190505152737-8914e1cf9164 // indirect
 	github.com/gavv/monotime v0.0.0-20190418164738-30dba4353424 // indirect
 	github.com/go-redis/redis v6.15.2+incompatible
+	github.com/go-xorm/core v0.6.2
 	github.com/go-xorm/xorm v0.7.3
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/hashicorp/consul/api v1.1.0
@@ -77,5 +78,6 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
+	google.golang.org/grpc v1.20.1
 	gopkg.in/yaml.v2 v2.2.2
 )
