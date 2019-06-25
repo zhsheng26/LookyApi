@@ -44,6 +44,7 @@ require (
 	github.com/go-redis/redis v6.15.2+incompatible
 	github.com/go-xorm/core v0.6.2
 	github.com/go-xorm/xorm v0.7.3
+	github.com/golang/protobuf v1.3.1
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/hashicorp/consul/api v1.1.0
 	github.com/imkira/go-interpol v1.1.0 // indirect
